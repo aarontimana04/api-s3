@@ -1,4 +1,4 @@
-org: geraldocolchado
+org: utec01
 service: api-s3
 
 provider:
@@ -7,7 +7,7 @@ provider:
   # Default memory size for functions (default: 256MB)
   memorySize: 256
   iam:
-    role: arn:aws:iam::447891120606:role/LabRole
+    role: arn:aws:iam::864755325173:role/LabRole
 
 functions:
   lista_buckets:
