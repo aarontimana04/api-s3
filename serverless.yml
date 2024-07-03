@@ -29,7 +29,7 @@ functions:
           integration: lambda
   #funciones de creacion
   crear_carpeta:
-    handler: crear_carpeta.lambda_handler
+    handler: crearcarpeta.lambda_handler
     events:
       - http:
           path: /s3/bucket/crear-carpeta
@@ -37,7 +37,7 @@ functions:
           cors: true
           integration: lambda
   crear_bucket:
-    handler: crear_bucket.lambda_handler
+    handler: crearbucket.lambda_handler
     events:
       - http:
           path: /s3/crear-bucket
